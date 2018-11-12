@@ -1,0 +1,35 @@
+body {
+    color: #222;
+    font-family: 'AktivGroteskW01-Regular', sans-serif;
+}
+ul{
+font-size: 1em;
+letter-spacing: -0.025em;
+line-height: 1.375rem;
+max-width: 40rem;
+font-weight: normal;   
+max-width: 9999px;
+display: block;
+list-style-type: disc;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 40px;
+}
+
+nav ul{
+list-style: none;
+margin: 0px 0px;
+padding: 0;
+}
+
+::selection {
+    background: #666;
+    color: #fff;
+    text-shadow: none;
+}
+
+footer{
+    float: right;
+}
